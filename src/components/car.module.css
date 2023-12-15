@@ -1,0 +1,48 @@
+li{
+    list-style: none;
+}
+
+.carLi {
+
+width: 274px;
+height: 426px;
+}
+.imgCar{
+width: 274px;
+height: 268px;
+border-radius: 14px;
+ /* object-fit: cover; */
+}
+.carList{
+    row-gap: 50px;
+    display: flex;
+    column-gap: 29px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.carInfo{
+    display: flex;
+}
+.carP:nth-child(4){
+margin-left: auto;
+}
+.btnCar{
+    width: 274px;
+    height: 44px;
+    border-radius: 12px;
+    background-color: #3470FF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: auto;
+}
+/* .carInfoRent{
+height: 40px;
+width: 270px;
+ font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: rgba(18, 20, 23, 0.5);
+  margin-top: 8px;
+} */
