@@ -1,7 +1,7 @@
 import React from 'react'
 
 import css from './modal.module.css';
-import { CarsOptions,  CarsModalOptions, Accessories,Functionalities, Conditions, CloseIcon} from './CarItem.styled';
+import { CarsOptions,  CarsModalOptions, Accessories,Functionalities, Conditions, } from './CarItem.styled';
 export const ModalCard = ({ advert, onClose }) => {
   const pick = (obj, keys) => Object.fromEntries(keys.map(n => [n, obj[n]]));
   const advertInfo = pick(advert, [
@@ -20,9 +20,9 @@ export const ModalCard = ({ advert, onClose }) => {
   const city = advert.address && cityCountry.slice(0, cityCountry.indexOf(','));
   const country =
     advert.address && cityCountry.slice(cityCountry.indexOf(',') + 2);
-  const company = advert.rentalCompany;
+  
   const type = advert.type;
-  const model = advert.model;
+  
   const Id = advertInfo.id;
   const year = advert.year;
   const fuelConsumption = advert.fuelConsumption;

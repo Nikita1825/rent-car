@@ -1,12 +1,12 @@
-import { useDispatch } from 'react-redux';
-import { Image,CarsOptions,Item, DescriptionBox } from './CarItem.styled';
+
+import { CarsOptions } from './CarItem.styled';
 import css from './car.module.css';
 import { useState } from 'react';
 import { Modal } from './modal';
 import { ModalCard } from './modalCard';
 
 export const CarItem = ({ advert }) => {
-    const dispath = useDispatch();
+    // const dispath = useDispatch();
  const pick = (obj, keys) => Object.fromEntries(keys.map(n => [n, obj[n]]));
      const advertInfo = pick(advert, [
        'id',
@@ -52,11 +52,7 @@ const [isOpenModal, setIsOpenModal] = useState(false);
             }
             alt=""
           />
-          {/* <img
-            className={css.imgCar}
-            src="https://res.cloudinary.com/dxwbdzeld/image/upload/v1698962945/car/carSmall/image_1_kjf9ie.jpg"
-            alt=""
-          /> */}
+        
           <div className={css.carInfo}>
             <p className={css.carP}>{advert.make}</p>
             <p className={css.carP}>{advert.model},</p>

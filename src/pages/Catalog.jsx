@@ -1,5 +1,5 @@
 import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 // import { fetchCar } from 'redux/operations';
 import { fetchAdverts } from '../redux/operations';

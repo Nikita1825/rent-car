@@ -1,11 +1,11 @@
 import React from 'react'
-import { ModalCard } from './modalCard';
+
 import {
 
   CloseIcon,
 } from './CarItem.styled';
 import css from './modal.module.css'
-import { CarItem } from './carItem';
+
 
 
 export const Modal = ({ children, onClose, isOpen }) => {

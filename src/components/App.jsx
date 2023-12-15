@@ -1,5 +1,5 @@
 import { NavLink, Route, Routes } from 'react-router-dom';
-import { lazy, Suspense, useEffect } from 'react';
+import { lazy, Suspense} from 'react';
 
 const HomePage = lazy(() => import('pages/Home'))
 const CatalogPage = lazy(() => import('pages/Catalog'));
