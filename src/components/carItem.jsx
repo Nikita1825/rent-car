@@ -4,9 +4,15 @@ import css from './car.module.css';
 import { useState } from 'react';
 import { Modal } from './modal';
 import { ModalCard } from './modalCard';
+import { HeartBtn } from './heartBtn';
+
+
+
+
+
 
 export const CarItem = ({ advert }) => {
-    // const dispath = useDispatch();
+  
  const pick = (obj, keys) => Object.fromEntries(keys.map(n => [n, obj[n]]));
      const advertInfo = pick(advert, [
        'id',
@@ -39,10 +45,15 @@ const [isOpenModal, setIsOpenModal] = useState(false);
   const handleClose = () => {
     setIsOpenModal(false);
   };
+
+
+
     
     return (
       <>
         <li className={css.carLi}>
+         
+          <HeartBtn advert={advert}/>
           <img
             className={css.imgCar}
             src={
@@ -52,7 +63,7 @@ const [isOpenModal, setIsOpenModal] = useState(false);
             }
             alt=""
           />
-        
+
           <div className={css.carInfo}>
             <p className={css.carP}>{advert.make}</p>
             <p className={css.carP}>{advert.model},</p>
