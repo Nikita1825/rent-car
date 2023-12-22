@@ -2,10 +2,9 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import { fetchAdverts } from '../redux/operations';
-import { CarList } from 'components/carList';
-import { FilterForm } from 'components/FilterForm';
-
-
+import { CarList } from 'components/CarList/carList';
+import { FilterForm } from 'components/Filter/FilterForm';
+import css from '../components/CarItem/car.module.css';
 
 const Catalog = () => {
   const dispatch = useDispatch();
@@ -14,9 +13,8 @@ const Catalog = () => {
     dispatch(fetchAdverts());
   });
   return (
-    <div>
-      <h1>catalog</h1>
-      <FilterForm  />
+    <div className={css.catalog}>
+      <FilterForm />
       <CarList />
     </div>
   );

@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=PT+Serif:ital@1&display=swap');
+
+.header {
+    padding: 20px;
+    
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.nav{
+    gap: 20px;
+     display: flex;
+}
+.navLink{
+    text-decoration: none;
+    font-family: "Manrope", sans-serif ;
+    color: black;
+}

@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+}
+    @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=PT+Serif:ital@1&display=swap');
+body{
+  background: linear-gradient(
+    to right,
+    white 0%,
+    rgb(93, 88, 88) 100%);  
+}
+.main{
+  background:  url(../../../assets/highway-7213206_1280.jpg);
+     width: 100%;
+  height: 700px;
+ 
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    
+}
+.container{
+   max-width: 1440px;
+  margin: 0px auto;
+  padding-bottom: 100px;
+}
+.rental{
+    margin: 0;
+    padding-left: 100px;
+    padding-top: 500px;
+    font-family: "Manrope", sans-serif ;
+    font-size: 60px;
+    font-weight: 500;
+    color: azure;
+     
+    text-shadow: rgba(255, 255, 255, 0.5) 2px 2px 4px;
+    
+
+}
+.listInfo{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 40px;
+}
+.linkInfo{
+    padding: 25px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+    width: 230px;
+    
+
+}
+.svg{
+
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    fill: rgb(50, 63, 125);
+}
+.pInfo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: "Manrope", sans-serif ;
+    font-weight: 600;
+}
+.pInfoCard {
+align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Manrope", sans-serif ;
+    font-weight: 500;
+    margin-top: 10px;
+    
+}
+.rentH{
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+    font-family: "Manrope", sans-serif ;
+    font-weight: 500;
+    font-size: 38px;
+}
