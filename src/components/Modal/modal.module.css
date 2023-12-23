@@ -36,11 +36,13 @@
   border-radius: 14px;
   
   object-fit:cover;
+  
 }
 .carInfo {
   display: flex;
   padding-left: 40px;
   gap: 4px;
+  margin-top: 10px;
 }
 .carP{
   font-weight: 500;

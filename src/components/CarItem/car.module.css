@@ -1,5 +1,5 @@
-*{margin: 0;
-padding: 0;}
+/* *{margin: 0;
+padding: 0;} */
 
 li{
     list-style: none;
@@ -12,18 +12,23 @@ height: 426px;
 
 }
 .btnLoadMore{
-    color: #3470FF;
+    color: white;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     margin-top: 100px;
-    background-color: white;
+    background-color: #3470FF;
     border: none;
-    border-bottom: 1px solid #3470FF;
+    border-radius: 12px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     cursor: pointer;
+    padding: 10px;
+
+}
+.btnLoadMore:hover{
+    background-color: #0B44CD;
 }
 .imgCar{
 width: 274px;
